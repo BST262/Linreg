@@ -21,6 +21,6 @@ Runs an OLS regression not unlike \code{\link{lm}}
 data(mtcars)
 X <- as.matrix(mtcars[, c("cyl", "disp", "hp")])
 y <- mtcars[, "mpg"]
-linreg(y, X)
+linmodEst(y, X)
 
 }
